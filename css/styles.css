@@ -1,0 +1,175 @@
+:root {
+    --color-principal: #333333;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+
+/*------Receteadores--------*/
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {}
+
+/*----Generales----------*/
+.contenedor {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/*--------------------------------------------Presentación---------------------------------------------*/
+.principal {
+    background-image:
+        /* url(../img/bg.jpg), */
+        linear-gradient(45deg, red, blue);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal .pr-texto {
+    color: #fff;
+    font-size: 4rem;
+    margin: 10px;
+}
+
+.principal a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.principal .pr-indice {
+    display: flex;
+    gap: 30px;
+}
+
+.principal .pr-indice a:hover {
+    color: #2abeb2;
+
+}
+
+.contenido {
+    margin: 50px;
+}
+
+/*------------------------------------------Barra de navegación---------------------------------------*/
+.barra-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2abeb2;
+    height: 60px;
+    display: flex;
+}
+
+.navegacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion ul {
+    padding: 10px 0;
+    width: 50vw;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navegacion ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*-----------------------------------------Sobre mi---------------------------------------------*/
+
+.sobre-mi {
+    background: linear-gradient(#333, white 5%, white 95%, #333);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre-mi p {
+    font-size: 2rem;
+}
+
+/*---------Trabajos realizados-------------*/
+.trayectoria {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.trayectoria p {
+    font-size: 1.8rem;
+}
+
+/*-------------------------------------Redes------------------------------------*/
+.redes {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes .caja-redes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes .caja-redes .red-link {
+    border: solid 1px #000;
+    border-radius: 5px;
+    height: 5rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes .caja-redes a {
+    text-decoration: none;
+    font-size: 1.45rem;
+}
+
+/*-----------------------------------------------Footer---------------------------------------*/
+.footer {
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+}
+
+.footer .caja-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .caja-footer img {
+    background-color: #fff;
+    height: 60px;
+}
+
+.footer .caja-footer p {
+    color: #fff;
+    font-size: 1.4rem;
+}
