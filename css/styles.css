@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
+
 :root {
     --color-principal: #333333;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap');
 
 /*------Receteadores--------*/
 * {
@@ -64,6 +64,13 @@ body {}
 
 /*------------------------------------------Barra de navegación---------------------------------------*/
 .barra-nav {
+    padding: 20px 0;
+    background-color: #2abeb2;
+    height: 60px;
+    display: flex;
+}
+
+.barra-nav-active {
     position: fixed;
     top: 0;
     width: 100%;
